@@ -1,5 +1,5 @@
 import torch
-from unet.models.unet_layers import ConvBlock, UpConvBlock
+from unet.model.unet_layers import ConvBlock, UpConvBlock
 
 
 class Unet(torch.nn.Module):
